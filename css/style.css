@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    margin: 0%;
+}
+.side{
+ width: 100px;
+}
+.menu{
+width: 200px;}
+.rok{width: 65px;}
+.Menu-items{
+    width: 100%  ; 
+    height: 100vh;
+}
+.bodye{
+    padding: 50px;
+}
+.title{
+    position: absolute;
+    top: 100%;
+    opacity: 1;
+    height: 100%;
+    width: 92%;
+    transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0.7 );
+    
+    align-items: center;
+    color:#fff;
+    /* justify-content: center; */
+}
+.title1{
+    position: absolute;
+    top: 200%;
+    
+    height: 100%;
+    width: 92%;
+    transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0.7);
+    
+    align-items: center;
+    color:#fff;
+    /* justify-content: center; */
+}
+.rowData{
+    position: relative;
+    overflow: hidden;
+}
+
+.meal:hover >div{
+    top: 0;
+    
+}
